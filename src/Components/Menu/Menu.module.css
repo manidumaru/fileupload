@@ -1,0 +1,21 @@
+
+.menu-holder {
+    border-bottom: 1px solid #1f1f1f;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.menu-image {
+    height:70px;
+}
+
+.menu-links {    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.menu-links > p {
+    padding: 0px 20px;
+}

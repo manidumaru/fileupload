@@ -1,0 +1,60 @@
+
+.body-holder {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.body-form {
+    display: flex;
+    flex-direction: column;    
+    padding: 20px;
+}
+
+.upload-holder {
+    display: flex;
+    flex-direction: column;    
+}
+
+input[type=file] {
+    display: none;    
+}
+
+.upload-holder > label {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(204, 204, 204, 0.75);
+    display: inline-block;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.form-label {    
+    display: flex;
+    justify-content: center;
+}
+
+.form-filename {
+    color: #216e35;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button-holder {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;    
+}
+
+.button-holder > button {
+    padding: 10px 40px;
+    margin: 0px 5px;
+    border: none;
+    background-image: linear-gradient(#50b56b, #216e35);    
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:300ms ease-in;
+}
