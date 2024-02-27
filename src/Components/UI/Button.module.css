@@ -1,0 +1,7 @@
+.Button {
+  border: none;
+  background-image: linear-gradient(#50b56b, #216e35);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

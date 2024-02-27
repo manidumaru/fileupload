@@ -1,12 +1,13 @@
 import classes from "./Body.module.css";
 import BodyHeader from "./BodyHeader";
-import { Fragment } from "react";
+import BodyUploader from "./BodyUploader";
 
 const Body = () => {
   return (
-    <Fragment>
+    <div className={classes['body-holder']}>
         <BodyHeader />
-    </Fragment>
+        <BodyUploader />
+    </div>
   );
 };
 
